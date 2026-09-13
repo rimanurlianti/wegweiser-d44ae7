@@ -142,7 +142,7 @@ export default function RootLayout() {
     <GestureHandlerRootView style={{ flex: 1 }}>
       <HeroUINativeProvider>
         <Stack>
-          <Stack.Screen name="(tabs)" options={{ title: 'Habits', headerShown: false }} />
+          <Stack.Screen name="(tabs)" options={{ title: 'Wegweiser', headerShown: false }} />
         </Stack>
         <InstallPrompt />
       </HeroUINativeProvider>
